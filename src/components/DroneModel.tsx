@@ -5,7 +5,8 @@ import * as THREE from 'three';
 
 const DroneModel: React.FC = () => {
   // Load the GLB (Suspense handles loading state automatically)
-  const gltf = useGLTF('/drone.glb');
+  const modelPath = `${import.meta.env.BASE_URL}drone.glb`;
+  const gltf = useGLTF(modelPath);
   const groupRef = useRef<THREE.Group>(null);
 
   // Pre-calculate explosion vectors for all child meshes
@@ -129,6 +130,6 @@ const DroneModel: React.FC = () => {
 };
 
 // Preload the model
-useGLTF.preload('/drone.glb');
+useGLTF.preload(`${import.meta.env.BASE_URL}drone.glb`);
 
 export default DroneModel;
