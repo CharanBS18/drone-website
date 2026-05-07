@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import fpvDroneImage from '../../image .png';
+import droneImage from '../../drone.png';
 
 const features = [
   {
@@ -16,7 +17,7 @@ const features = [
   {
     title: 'Built to Endure',
     desc: 'Carbon fiber construction and IP43 rating mean you can fly in rain, snow, or harsh winds without hesitation.',
-    image: 'drone.png'
+    image: droneImage
   }
 ];
 
