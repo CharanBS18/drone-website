@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 
 const galleryImages = [
-  { id: 1, src: 'https://images.unsplash.com/photo-1654360415114-262143f0573e?q=80&w=2070&auto=format&fit=crop', category: 'fpv' },
+  { id: 1, src: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=2070&auto=format&fit=crop', category: 'aerial' },
   { id: 2, src: 'https://images.unsplash.com/photo-1506501139174-099022df5260?q=80&w=2071&auto=format&fit=crop', category: 'city' },
-  { id: 3, src: 'https://images.unsplash.com/photo-1654360415114-262143f0573e?q=80&w=2139&auto=format&fit=crop', category: 'action' },
+  { id: 3, src: 'https://images.pexels.com/photos/7836292/pexels-photo-7836292.jpeg?auto=compress&cs=tinysrgb&w=2139', category: 'action' },
   { id: 4, src: 'https://images.unsplash.com/photo-1504681869696-d977211a5f4c?q=80&w=1952&auto=format&fit=crop', category: 'landscape' },
   { id: 5, src: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070&auto=format&fit=crop', category: 'nature' },
   { id: 6, src: 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=2070&auto=format&fit=crop', category: 'city' },
